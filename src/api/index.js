@@ -32,3 +32,9 @@ export const reqSmsLogin = (phone,code) => ajax(`/api/login_sms`,{phone,code},'P
 export const reqUser = () => ajax(`/api/userinfo`)
 // 10、用户登出
 export const reqLogout = () => ajax(`/api/logout`)
+//11.mock请求商品goods
+export const reqGoods= () => ajax('/goods')
+//12.mock请求商品ratings
+export const reqRatings= () => ajax('/ratings')
+//13.mock请求商品info
+export const reqInfo= () => ajax('/info')
